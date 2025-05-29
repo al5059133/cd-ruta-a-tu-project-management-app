@@ -1,0 +1,20 @@
+CSS 
+
+/* Estilo general para los enlaces */ 
+a { 
+  color: blue; 
+  text-decoration: none; /* Elimina el subrayado por defecto */ 
+} 
+ 
+/* Estilo al pasar el ratón por encima */ 
+a:hover { 
+  color: darkblue; 
+  text-decoration: underline; 
+} 
+ 
+/* Estilo para un enlace específico con una clase */ 
+.boton-navegacion { 
+  background-color: lightgray; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+}

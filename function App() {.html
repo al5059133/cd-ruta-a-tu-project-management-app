@@ -1,0 +1,39 @@
+function App() { 
+  return ( 
+    <Router> 
+      <nav> 
+        <ul> 
+          <li> 
+            <Link to="/">Inicio</Link> 
+          </li> 
+          <li> 
+            <Link to="/desarrollo-web">Desarrollo Web</Link> 
+          </li> 
+          <li> 
+            <Link to="/contacto">Contacto</Link> 
+          </li> 
+        </ul> 
+      </nav> 
+ 
+      <Routes> 
+        <Route path="/" element={<Inicio />} /> 
+        <Route path="/desarrollo-web" element={<DesarrolloWeb />} /> 
+        <Route path="/contacto" element={<Contacto />} /> 
+      </Routes> 
+    </Router> 
+  ); 
+} 
+ 
+function Inicio() { 
+  return <h1>Página de Inicio</h1>; 
+} 
+ 
+function DesarrolloWeb() { 
+  return <h1>Sección de Desarrollo Web</h1>; 
+} 
+ 
+function Contacto() { 
+  return <h1>Página de Contacto</h1>; 
+} 
+ 
+export default App;

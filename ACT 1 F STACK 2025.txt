@@ -1,0 +1,9 @@
+DB_DIALECT=postgres
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres # Or your PostgreSQL username
+DB_PASSWORD=your_postgres_password # The password you set during installation
+DB_NAME=project_manager_db
+
+PORT=5000
+CLIENT_URL=http://localhost:3000
